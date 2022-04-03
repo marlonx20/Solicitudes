@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crear usuario</title>
+  </head>
+  <body style="padding: 0; margin: 0">
+    <header></header>
+    <section id="form-register">
+      <h4>Registro</h4>
+	  <form action="php/registro" name="form-reg" method="POST">
+      <input
+        
+        type="text"
+        name="Nombre"
+        id="Nombre"
+        placeholder="Ingrese su nombre"
+		required
+      />
+      <input
+        
+        type="text"
+        name="Apellido"
+        id="Apellido"
+        placeholder="Ingrese sus Apellido"
+		required
+      />
+      <input
+        
+        type="email"
+        name="Correo"
+        id="Correo"
+        placeholder="Ingrese su correo"
+		required
+      />
+      <input
+        
+        type="password"
+        name="Contraseña"
+        id="Contraseña"
+        placeholder="Ingrese su contraseña"
+		required
+		autocomplete="new-password"
+      />
+      <input class="botons" type="submit" value="Registrarse" />
+	</form>
+      <p><a href="pruebas1.html"> Ya tengo Cuenta </a></p>
+      <p><a href="inicio.html">Inicio</a></p>
+    </section>
+  </body>
+</html>
